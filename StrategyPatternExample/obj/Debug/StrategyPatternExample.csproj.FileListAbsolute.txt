@@ -1,0 +1,14 @@
+D:\MyProjects\StrategyPatternExample\bin\Debug\StrategyPatternExample.exe.config
+D:\MyProjects\StrategyPatternExample\bin\Debug\StrategyPatternExample.exe
+D:\MyProjects\StrategyPatternExample\bin\Debug\StrategyPatternExample.pdb
+D:\MyProjects\StrategyPatternExample\obj\Debug\StrategyPatternExample.csprojAssemblyReference.cache
+D:\MyProjects\StrategyPatternExample\obj\Debug\StrategyPatternExample.csproj.CoreCompileInputs.cache
+D:\MyProjects\StrategyPatternExample\obj\Debug\StrategyPatternExample.exe
+D:\MyProjects\StrategyPatternExample\obj\Debug\StrategyPatternExample.pdb
+D:\MyProjects\Patterns\StrategyPatternExample\bin\Debug\StrategyPatternExample.exe.config
+D:\MyProjects\Patterns\StrategyPatternExample\bin\Debug\StrategyPatternExample.exe
+D:\MyProjects\Patterns\StrategyPatternExample\bin\Debug\StrategyPatternExample.pdb
+D:\MyProjects\Patterns\StrategyPatternExample\obj\Debug\StrategyPatternExample.csprojAssemblyReference.cache
+D:\MyProjects\Patterns\StrategyPatternExample\obj\Debug\StrategyPatternExample.csproj.CoreCompileInputs.cache
+D:\MyProjects\Patterns\StrategyPatternExample\obj\Debug\StrategyPatternExample.exe
+D:\MyProjects\Patterns\StrategyPatternExample\obj\Debug\StrategyPatternExample.pdb
