@@ -3,3 +3,6 @@
 ################################################################################
 
 /StrategyPatternExample/bin/Debug
+/StrategyPatternExample/obj/Debug
+/ObserverPatternExample/obj/Debug
+/ObserverPatternExample/bin/Debug
