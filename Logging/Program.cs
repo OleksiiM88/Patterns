@@ -31,6 +31,8 @@ namespace Logging
                 logger.LogInformation("Log in scope!");
                 logger.LogInformation("Log in scope!");
                 logger.LogInformation("Log in scope!");
+                IExceptionClass ex = new ExceptionClass(logger);
+                logger.LogError(ex.ThrowException());
                 logger.LogError("Error Log");
             }
 

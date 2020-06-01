@@ -10,3 +10,5 @@
 /Logging/bin/Debug
 /Logging/obj/Debug
 /packages
+/DecoratorPatternExample/obj/Debug
+/DecoratorPatternExample/bin/Debug
