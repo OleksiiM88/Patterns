@@ -2,13 +2,9 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/StrategyPatternExample/bin/Debug
-/StrategyPatternExample/obj/Debug
-/ObserverPatternExample/obj/Debug
-/ObserverPatternExample/bin/Debug
-/LoggerPrototype/obj/Debug
-/Logging/bin/Debug
-/Logging/obj/Debug
-/packages
-/DecoratorPatternExample/obj/Debug
-/DecoratorPatternExample/bin/Debug
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
