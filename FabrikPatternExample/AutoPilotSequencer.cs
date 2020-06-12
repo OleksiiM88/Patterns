@@ -9,16 +9,16 @@ namespace FactoryPatternExample
 {
     public class AutoPilotSequencer
     {
-        protected Autopilot _autopilot;
+        protected AutoPilotFactory _autoPilotFactory;
 
-        public AutoPilotSequencer()
+        public AutoPilotSequencer(AutoPilotFactory autoPilotFactory)
         {
-
+            _autoPilotFactory = autoPilotFactory;
         }
 
-        public void AutoPilotSequence()
+        public void AutoPilotSequence(string type)
         {
-            Autopilot autopilot = new LAE();
+            Autopilot autopilot = _autoPilotFactory.FactorySequencer(type);
             autopilot.Overview();
             autopilot.Purpose();
             autopilot.MaxCapacity();

@@ -10,8 +10,13 @@ namespace FactoryPatternExample
     {
         static void Main(string[] args)
         {
-            AutoPilotSequencer autoPilotSequencer = new AutoPilotSequencer();
-            autoPilotSequencer.AutoPilotSequence();
+            AutoPilotSequencer autoPilotSequencer = new AutoPilotSequencer(new AutoPilotFactory());
+            autoPilotSequencer.AutoPilotSequence("LAE");
+            Console.WriteLine("--------");
+            autoPilotSequencer.AutoPilotSequence("SAE");
+            Console.WriteLine("--------");
+            autoPilotSequencer.AutoPilotSequence("TAE");
+            Console.WriteLine("--------");
 
             Console.ReadLine();
         }
