@@ -6,20 +6,30 @@ using System.Threading.Tasks;
 
 namespace FactoryPatternExample.Autopilots
 {
-    class LAE : Autopilot
+    class LAE : IAutoPilot
     {
         public LAE()
         {
-            Name = "LAE";
+            Name = "Low-lifters";
             AutoPilotWeight = 1;
             AutoPilotClass = "Long";
         }
-        public override void MaxCapacity()
+
+        public string AutoPilotClass { get ; set ; }
+        public string Name { get ; set ; }
+        public int AutoPilotWeight { get ; set; }
+
+        public void MaxCapacity()
         {
             Console.WriteLine("LAE max capacity is 1.5 tonns");
         }
 
-        public override void Purpose()
+        public void Overview()
+        {
+            Console.WriteLine($"I'm {Name} with {AutoPilotWeight} weight and {AutoPilotClass} class");
+        }
+
+        public void Purpose()
         {
             Console.WriteLine("I have a Long pallets");
         }

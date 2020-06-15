@@ -49,6 +49,7 @@
     <Compile Include="Autopilots\LAE.cs" />
     <Compile Include="Autopilots\SAE.cs" />
     <Compile Include="Autopilots\TAE.cs" />
+    <Compile Include="Autopilots\IAutoPilot.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

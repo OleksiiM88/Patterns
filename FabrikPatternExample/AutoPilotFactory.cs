@@ -9,7 +9,7 @@ namespace FactoryPatternExample
 {
     public class AutoPilotFactory
     {
-        public Autopilot FactorySequencer(string type)
+        public IAutoPilot FactorySequencer(string type)
         {
             switch (type)
             {

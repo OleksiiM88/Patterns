@@ -18,7 +18,7 @@ namespace FactoryPatternExample
 
         public void AutoPilotSequence(string type)
         {
-            Autopilot autopilot = _autoPilotFactory.FactorySequencer(type);
+            IAutoPilot autopilot = _autoPilotFactory.FactorySequencer(type);
             autopilot.Overview();
             autopilot.Purpose();
             autopilot.MaxCapacity();
