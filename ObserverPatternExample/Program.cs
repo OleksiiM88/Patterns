@@ -12,6 +12,7 @@ namespace ObserverPatternExample
     {
         static void Main(string[] args)
         {
+            
             GarageConfigurator configurator = new GarageConfigurator();
             var skoda = new Skoda();
             var volvo = new Volvo();

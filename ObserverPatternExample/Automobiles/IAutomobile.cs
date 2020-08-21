@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ObserverPatternExample.Garage;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,5 +10,7 @@ namespace ObserverPatternExample.Automobiles
     public interface IAutomobile
     {
         void Display();
+
+        void Parking(object sender, ParkingEventArgs e);
     }
 }

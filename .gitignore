@@ -8,3 +8,4 @@ _ReSharper.*
 bin
 obj
 packages
+/.vs/PatternsExamples/v16/TestStore/0
